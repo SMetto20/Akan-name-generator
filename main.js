@@ -62,3 +62,21 @@ function maleNames() {
         return alert("Kwame")
     }
 }
+
+function femaleNames() {
+    if (Checker() == '7') {
+        return alert("Akosua")
+    } else if (Checker() == '1') {
+        return alert("Adwoa")
+    } else if (Checker() == '2') {
+        return alert("Abeena")
+    } else if (Checker() == '3') {
+        return alert("Akua")
+    } else if (Checker() == '4') {
+        return alert("Yaa")
+    } else if (Checker() == '5') {
+        return alert("Afua")
+    } else if (Checker() == '6') {
+        return alert("Ama")
+    }
+}
