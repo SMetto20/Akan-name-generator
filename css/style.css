@@ -6,8 +6,7 @@
     padding: 0%;
 }
 
-body {
-    background-image: url(/images/people.png);
+body {background-image:url(../images/people.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
