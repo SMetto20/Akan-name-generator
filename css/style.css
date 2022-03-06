@@ -6,6 +6,11 @@
     padding: 0%;
 }
 
+body{
+    background-image: url(/images/people.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 h1 {
     font-size: 58px;
     padding: 5px;
