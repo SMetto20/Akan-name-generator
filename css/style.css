@@ -48,3 +48,10 @@ p {
     text-align: center;
     font-size: 22px;
 }
+.bigger{
+    font-size: 20px;
+    float: center;
+    padding: 5px;
+    margin : 5px;
+    width : 20%;
+    }
