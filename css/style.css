@@ -6,11 +6,12 @@
     padding: 0%;
 }
 
-body{
+body {
     background-image: url(/images/people.png);
     background-repeat: no-repeat;
     background-size: cover;
-    }
+}
+
 h1 {
     font-size: 58px;
     padding: 5px;
@@ -36,4 +37,14 @@ p {
     font-family: helvetica;
     padding: 5px;
     margin: 5px;
+}
+
+.form {
+    text-align: center;
+    font-size: 20px;
+}
+
+.submit {
+    text-align: center;
+    font-size: 22px;
 }
