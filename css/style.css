@@ -23,3 +23,12 @@ h1 {
 .gold {
     color: rgb(197, 197, 6);
 }
+
+p {
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    font-family: helvetica;
+    padding: 5px;
+    margin: 5px;
+}
