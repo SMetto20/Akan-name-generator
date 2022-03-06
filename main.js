@@ -34,49 +34,47 @@ function validate() {
 }
 
 function validate() {
-    var Gender = document.getElementById("gender")
-
+    var Gender = document.getElementById("gender").value
     console.log(Gender)
-    if (Gender.value == "Male") {
-        maleNames()
-    } else if (Gender.value == "Female") {
-        femaleNames()
+
+    if (Gender == "Male") {maleNames()
+    } else if (Gender == "Female") {femaleNames()
     }
 
 }
 
 function maleNames() {
     if (Checker() == '7') {
-        return alert("Kwasi")
+        return alert("Conratulations your name Kwasi!!")
     } else if (Checker() == '1') {
-        return alert("Kwado")
+        return alert("Congratulations your name is Kwado!!")
     } else if (Checker() == '2') {
-        return alert("Kwabena")
+        return alert("Congratulations your name is Kwabena!!")
     } else if (Checker() == '3') {
-        return alert("Kwaku")
+        return alert("Congratulatios your name is Kwaku!!")
     } else if (Checker() == '4') {
-        return alert("Yaw")
+        return alert("Congratulations your namr is Yaw!!")
     } else if (Checker() == '5') {
-        return alert("Kofi")
+        return alert("Congratulations your name is Kofi!!")
     } else if (Checker() == '6') {
-        return alert("Kwame")
+        return alert("Congratulations your name is Kwame!!")
     }
 }
 
 function femaleNames() {
     if (Checker() == '7') {
-        return alert("Akosua")
+        return alert("Congratulations your name is Akosua!!")
     } else if (Checker() == '1') {
-        return alert("Adwoa")
+        return alert("Congratulations your name is Adwoa!!")
     } else if (Checker() == '2') {
-        return alert("Abeena")
+        return alert("Congratulations your name is Abeena!!")
     } else if (Checker() == '3') {
-        return alert("Akua")
+        return alert("Congratulations yout name is Akua!!")
     } else if (Checker() == '4') {
-        return alert("Yaa")
+        return alert("Congratulations your name is Yaa !!")
     } else if (Checker() == '5') {
-        return alert("Afua")
+        return alert("Congratulations your name is Afua!!")
     } else if (Checker() == '6') {
-        return alert("Ama")
+        return alert("Congratulations your name is Ama!!")
     }
 }
