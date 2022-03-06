@@ -48,10 +48,22 @@ p {
     text-align: center;
     font-size: 22px;
 }
-.bigger{
+
+.bigger {
     font-size: 20px;
     float: center;
     padding: 5px;
-    margin : 5px;
-    width : 20%;
-    }
+    margin: 5px;
+    width: 20%;
+}
+
+form div {
+    display: block;
+    margin: 30px;
+    padding: 20px;
+}
+
+button {
+    margin: 20px;
+    padding: 15p;
+}
