@@ -44,3 +44,21 @@ function validate() {
     }
 
 }
+
+function maleNames() {
+    if (Checker() == '7') {
+        return alert("Kwasi")
+    } else if (Checker() == '1') {
+        return alert("Kwado")
+    } else if (Checker() == '2') {
+        return alert("Kwabena")
+    } else if (Checker() == '3') {
+        return alert("Kwaku")
+    } else if (Checker() == '4') {
+        return alert("Yaw")
+    } else if (Checker() == '5') {
+        return alert("Kofi")
+    } else if (Checker() == '6') {
+        return alert("Kwame")
+    }
+}
