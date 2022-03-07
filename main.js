@@ -2,7 +2,7 @@ var year = document.getElementById("year");
 var month = document.getElementById("month");
 var date = document.getElementById("date");
 var Gender = document.getElementById("gender")
-
+var error = document.getElementById("error")
 
 var form = document.getElementById("form");
 form.addEventListener("submit", function (event) {
