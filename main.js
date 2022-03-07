@@ -24,6 +24,46 @@ form.addEventListener("submit", function (event) {
     if (month.value === '09' && date.value === '31') {
         messeges.push(alert("invalid entry"))
     }
+    if (month.value === 'january' || month.value === "January") {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'february' || month.value === 'February') {
+        messeges.push(alert("invalid entry"))
+    }
+
+    if (month.value === 'march' || month.value === 'March') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'april' || date.value === 'April') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'may' || month.value === "May") {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'june' || month.value === 'June') {
+        messeges.push(alert("invalid entry"))
+    }
+
+    if (month.value === 'july' || month.value === 'July') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'august' || date.value === 'August') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'september' || month.value === "September") {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'october' || month.value === 'October') {
+        messeges.push(alert("invalid entry"))
+    }
+
+    if (month.value === 'november' || month.value === 'November') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'december' || date.value === 'December') {
+        messeges.push(alert("invalid entry"))
+    }
+
 
 
     Checker();
