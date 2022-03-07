@@ -1,10 +1,18 @@
 var year = document.getElementById("year");
 var month = document.getElementById("month");
 var date = document.getElementById("date");
+var error = document.getElementById("error")
+var Gender = document.getElementById("gender")
 
 var form = document.getElementById("form");
 form.addEventListener("submit", function (event) {
     event.preventDefault();
+    let messeges = []
+    if (Gender.value === 'male' || Gender.value === 'female') {
+        messeges.push(alert("Invalid entry"))
+    }
+    
+
     Checker();
     validate();
 });
@@ -22,7 +30,7 @@ function Checker() {
 }
 
 function validate() {
-    var Gender = document.getElementById("gender")
+
 
     console.log(Gender)
     if (Gender.value == "Male") {
@@ -37,8 +45,10 @@ function validate() {
     var Gender = document.getElementById("gender").value
     console.log(Gender)
 
-    if (Gender == "Male") {maleNames()
-    } else if (Gender == "Female") {femaleNames()
+    if (Gender == "Male") {
+        maleNames()
+    } else if (Gender == "Female") {
+        femaleNames()
     }
 
 }
