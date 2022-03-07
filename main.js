@@ -11,7 +11,20 @@ form.addEventListener("submit", function (event) {
     if (Gender.value === 'male' || Gender.value === 'female') {
         messeges.push(alert("Invalid entry"))
     }
-    
+    if (month.value === '11' && date.value === '31') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === '04' && date.value === '31') {
+        messeges.push(alert("invalid entry"))
+    }
+
+    if (month.value === '06' && date.value === '31') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === '09' && date.value === '31') {
+        messeges.push(alert("invalid entry"))
+    }
+
 
     Checker();
     validate();
