@@ -31,7 +31,7 @@ console.log("hello")
 Just download uzip and run
 
 ### BDD
-I started by looking at how to derive value from the user. which I then  used to calculate the dy of the week they were born, which is one determinant of the Akan name. I then derived a way to combine the Gender the user inputs and the number returned after the date determinant formular is run. Futhermore, depending on the users gender I then assigned different functions to be called that would then return the users Akan name
+I started by looking at how to derive value from the user. which I then  used to calculate the day of the week they were born, which is one determinant of the Akan name. I then derived a way to combine the Gender the user inputs and the number returned after the date determinant formular is run. Futhermore, depending on the users gender I then assigned different functions to be called that would then return the users Akan name
 
 ### Website
 [website](https://smetto20.github.io/Akan-name-generator/)
