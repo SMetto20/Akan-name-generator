@@ -1,10 +1,70 @@
 var year = document.getElementById("year");
 var month = document.getElementById("month");
 var date = document.getElementById("date");
+var Gender = document.getElementById("gender")
+
 
 var form = document.getElementById("form");
 form.addEventListener("submit", function (event) {
     event.preventDefault();
+    let messeges = []
+    if (Gender.value === 'male' || Gender.value === 'female') {
+        messeges.push(alert("Invalid entry"))
+    }
+    if (month.value === '11' && date.value === '31') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === '04' && date.value === '31') {
+        messeges.push(alert("invalid entry"))
+    }
+
+    if (month.value === '06' && date.value === '31') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === '09' && date.value === '31') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'january' || month.value === "January") {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'february' || month.value === 'February') {
+        messeges.push(alert("invalid entry"))
+    }
+
+    if (month.value === 'march' || month.value === 'March') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'april' || date.value === 'April') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'may' || month.value === "May") {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'june' || month.value === 'June') {
+        messeges.push(alert("invalid entry"))
+    }
+
+    if (month.value === 'july' || month.value === 'July') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'august' || date.value === 'August') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'september' || month.value === "September") {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'october' || month.value === 'October') {
+        messeges.push(alert("invalid entry"))
+    }
+
+    if (month.value === 'november' || month.value === 'November') {
+        messeges.push(alert("invalid entry"))
+    }
+    if (month.value === 'december' || date.value === 'December') {
+        messeges.push(alert("invalid entry"))
+    }
+
+
     Checker();
     validate();
 });
@@ -22,7 +82,6 @@ function Checker() {
 }
 
 function validate() {
-    var Gender = document.getElementById("gender")
 
     console.log(Gender)
     if (Gender.value == "Male") {
@@ -37,8 +96,10 @@ function validate() {
     var Gender = document.getElementById("gender").value
     console.log(Gender)
 
-    if (Gender == "Male") {maleNames()
-    } else if (Gender == "Female") {femaleNames()
+    if (Gender == "Male") {
+        maleNames()
+    } else if (Gender == "Female") {
+        femaleNames()
     }
 
 }
