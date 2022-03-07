@@ -63,8 +63,7 @@ form.addEventListener("submit", function (event) {
     if (month.value === 'december' || date.value === 'December') {
         messeges.push(alert("invalid entry"))
     }
-
-
+    
 
     Checker();
     validate();
