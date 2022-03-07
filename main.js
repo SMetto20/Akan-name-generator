@@ -130,7 +130,7 @@ function femaleNames() {
     } else if (Checker() == '2') {
         return alert("Congratulations your name is Abeena!!")
     } else if (Checker() == '3') {
-        return alert("Congratulations yout name is Akua!!")
+        return alert("Congratulations your name is Akua!!")
     } else if (Checker() == '4') {
         return alert("Congratulations your name is Yaa !!")
     } else if (Checker() == '5') {
