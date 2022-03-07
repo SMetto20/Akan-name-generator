@@ -11,6 +11,13 @@ form.addEventListener("submit", function (event) {
     if (Gender.value === 'male' || Gender.value === 'female') {
         messeges.push(alert("Invalid entry"))
     }
+    if (month.value > "12") {
+        messeges.push(alert("invalid entry"))
+    }
+    if (date.value > "31") {
+        messeges.push(alert("invalid entry"))
+    }
+
     if (month.value === '11' && date.value === '31') {
         messeges.push(alert("invalid entry"))
     }
@@ -63,14 +70,8 @@ form.addEventListener("submit", function (event) {
     if (month.value === 'december' || date.value === 'December') {
         messeges.push(alert("invalid entry"))
     }
-    if (month.value > '12') {
-        messeges.push(alert("invalid entry"))
-    }
-    if (date.value > '31') {
-        messeges.push(alert("invalid entry"))
-    }
-    
-    
+
+
 
     Checker();
     validate();
