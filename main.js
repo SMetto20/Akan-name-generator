@@ -3,7 +3,7 @@ var month = document.getElementById("month");
 var date = document.getElementById("date");
 var error = document.getElementById("error")
 var Gender = document.getElementById("gender")
-
+var error = document.getElementById("error")
 var form = document.getElementById("form");
 form.addEventListener("submit", function (event) {
     event.preventDefault();
