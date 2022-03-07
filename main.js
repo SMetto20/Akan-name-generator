@@ -13,9 +13,11 @@ form.addEventListener("submit", function (event) {
     }
     if (month.value > "12") {
         messeges.push(alert("invalid entry"))
+        Checker = null;
     }
     if (date.value > "31") {
         messeges.push(alert("invalid entry"))
+        Checker = null;
     }
 
     if (month.value === '11' && date.value === '31') {
